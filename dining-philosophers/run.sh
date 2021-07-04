@@ -1,0 +1,1 @@
+javac Philosopher.java S.java Activity2.java && java Activity2

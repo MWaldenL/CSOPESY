@@ -1,0 +1,36 @@
+P[1]
+Start time: 0 End time: 3
+Start time: 6 End time: 9
+Start time: 17 End time: 19
+Waiting time: 11
+Turnaround time: 19
+****************************
+P[3]
+Start time: 3 End time: 6
+Start time: 14 End time: 17
+Start time: 19 End time: 20
+Waiting time: 12
+Turnaround time: 19
+****************************
+P[2]
+Start time: 9 End time: 11
+Waiting time: 4
+Turnaround time: 6
+****************************
+P[4]
+Start time: 11 End time: 14
+Waiting time: 5
+Turnaround time: 8
+****************************
+P[5]
+Start time: 100 End time: 102
+Waiting time: 0
+Turnaround time: 2
+****************************
+
+Average waiting time: 6.4
+Gantt Chart:
+.-------.-------.-------.-------.-------.-------.-------.-------.-------.-------.
+| P1    | P3    | P1    | P2    | P4    | P3    | P1    | P3    | ----- | P5    |
+:-------:-------:-------:-------:-------:-------:-------:-------:-------:-------:
+0       3       6       9       11      14      17      19      20      100     102
